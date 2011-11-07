@@ -1,5 +1,5 @@
 <?php
-//Relies on the oAuth2 library by Pierrick Charron: https://github.com/adoy/PHP-OAuth2/blob/master/client.php (Included in this sample package)
+//Relies on the oAuth2 library by Pierrick Charron: https://github.com/adoy/PHP-OAuth2/ (Included in this sample package)
 require('./lib/oauth2.php');
 
 const CLIENT_ID = '0'; // OAuth 2.0 client_id
