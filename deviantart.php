@@ -54,7 +54,7 @@ try {
         }
         
         if ($result->status == 'success') {
-            print "Great Success! <a href=\"http://www.deviantart.com/deviation/{$result->stashid}\" target=\"_blank\">Deviation ID {$result->stashid}</a>";
+            print "Great Success! <a href=\"http://sta.sh/1{$result->stashid}\" target=\"_blank\">Stash ID {$result->stashid}</a>";
         } else {
             throw new Exception($result->human_error);
         }
